@@ -1,5 +1,5 @@
-# Bi-directional Adapter for Multimodal Tracking
-The official implementation for the AAAI2024 paper [**Bi-directional Adapter for Multimodal Tracking**](https://arxiv.org/abs/2312.10611).
+# A Benchmark for Dynamic RGBT Tracking and A Causal Inference based Learning Approach
+
 
 
 
