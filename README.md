@@ -69,26 +69,6 @@ We refer you to use [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for
 and refer you to use [MPR_MSR_Evaluation](https://sites.google.com/view/ahutracking001/) for RGBT234 evaluation.
 
 
-#### For RGB-E benchmark
-[VisEvent]\
-Modify the <DATASET_PATH> and <SAVE_PATH> in```./RGBE_workspace/test_rgbe_mgpus.py```, then run:
-```
-bash eval_rgbe.sh
-```
-We refer you to use [VisEvent_SOT_Benchmark](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark) for evaluation.
-
-## Citation
-Please cite our work if you think it is useful for your research.
-
-```bibtex
-@inproceedings{BAT,
-  title={Bi-directional Adapter for Multimodal Tracking},
-  author={Bing Cao, Junliang Guo, Pengfei Zhu, Qinghua Hu},
-  booktitle={AAAI Conference on Artificial Intelligence},
-  year={2024}
-}
-```
-
 
 
 
