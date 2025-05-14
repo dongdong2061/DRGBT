@@ -5,11 +5,9 @@
 
 ## Models
 
-[Models & Raw Results](https://pan.baidu.com/s/1Fcv2BX2HTb8M8u2IRJ75aQ?pwd=ak66)
-(Baidu Driver: ak66)
+[Models & Raw Results]()
+(Baidu Driver: )
 
-[Models & Raw Results](https://drive.google.com/drive/folders/1l8j8Ns8dGyrKrFrmetHPdqKPO0wNrZ1n?usp=sharing)
-(Google Drive)
 
 
 ## Usage
