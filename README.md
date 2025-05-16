@@ -1,12 +1,11 @@
 # A Benchmark for Dynamic RGBT Tracking and A Causal Inference based Learning Approach
-
+The official implementation for the paper [**A Benchmark for Dynamic RGBT Tracking and A Causal Inference based Learning Approach**].
 
 
 
 ## Models
 
-[Models & Raw Results]()
-(Baidu Driver: )
+[Models & Raw Results](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data)
 
 
 
@@ -26,15 +25,14 @@ bash install_bat.sh
 Download the training datasets, It should look like:
 ```
 $<PATH_of_Datasets>
-    -- LasHeR/TrainingSet
-        |-- 1boygo
-        |-- 1handsth
+    --|-- 001_RT_RT
+      |-- 001_person
+      |-- 002_RT_RT
+      |-- bike202407151415_RT_TT
+      |-- ...
+```
         ...
-    -- VisEvent/train
-        |-- 00142_tank_outdoor2
-        |-- 00143_tank_outdoor2
-        ...
-        |-- trainlist.txt
+
 ```
 
 ### Path Setting
@@ -50,7 +48,7 @@ You can also modify paths by these two files:
 ```
 
 ### Training
-Dowmload the pretrained [foundation model](https://pan.baidu.com/s/1JX7xUlr-XutcsDsOeATU1A?pwd=4lvo) (OSTrack) (Baidu Driver: 4lvo) / [foundation model](https://drive.google.com/file/d/1WSkrdJu3OEBekoRz8qnDpnvEXhdr7Oec/view?usp=sharing) (Google Drive)
+Dowmload the pretrained [foundation model](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data) (OSTrack and DropMae)
 and put it under ./pretrained/.
 ```
 bash train_bat.sh
@@ -59,14 +57,18 @@ You can train models with various modalities and variants by modifying ```train_
 
 ### Testing
 
-#### For RGB-T benchmarks
-[LasHeR & RGBT234] \
+#### For DRGBT benchmarks
+[DRGBT603] \
 Modify the <DATASET_PATH> and <SAVE_PATH> in```./RGBT_workspace/test_rgbt_mgpus.py```, then run:
 ```
 bash eval_rgbt.sh
 ```
-We refer you to use [LasHeR Toolkit](https://github.com/BUGPLEASEOUT/LasHeR) for LasHeR evaluation, 
-and refer you to use [MPR_MSR_Evaluation](https://sites.google.com/view/ahutracking001/) for RGBT234 evaluation.
+In this way, you can obtain the experimental results and then run the following command to evaluate them:
+```
+python evaluate_DRGBT603\eval_DRGBT603.py
+```
+
+
 
 
 
@@ -74,6 +76,6 @@ and refer you to use [MPR_MSR_Evaluation](https://sites.google.com/view/ahutrack
 
 
 ## Acknowledgment
-- This repo is based on [ViPT](https://github.com/jiawen-zhu/ViPT) which is an exellent work, helps us to quickly implement our ideas.
+- This repo is based on [BAT](https://github.com/SparkTempest/BAT) which is an exellent work, helps us to quickly implement our ideas.
 - Thanks for the [OSTrack](https://github.com/botaoye/OSTrack) and [PyTracking](https://github.com/visionml/pytracking) library.
 
