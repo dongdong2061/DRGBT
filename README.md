@@ -31,9 +31,7 @@ $<PATH_of_Datasets>
       |-- bike202407151415_RT_TT
       |-- ...
 ```
-        ...
 
-```
 
 ### Path Setting
 Run the following command to set paths:
@@ -51,9 +49,19 @@ You can also modify paths by these two files:
 Dowmload the pretrained [foundation model](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data) (OSTrack and DropMae)
 and put it under ./pretrained/.
 ```
-bash train_bat.sh
+CUDA_VISIBLE_DEVICES=0,1  NCCL_P2P_LEVEL=NVL nohup  python tracking/train.py --script drgbt --config DRGBT603 --save_dir ./output --mode multiple --nproc_per_node 1 >  train_track.log &
 ```
-You can train models with various modalities and variants by modifying ```train_bat.sh```.
+To enable the second-phase training, please set `second_phase` to `True` in `lib/train/actors/bat.py`.
+```
+out_dict = self.net(template=template_list,
+                    search=search_img,
+                    ce_template_mask=box_mask_z,
+                    ce_keep_rate=ce_keep_rate,
+                    return_last_attn=False,
+                    second_phase=False,#is second phase
+                    )
+```
+
 
 ### Testing
 
