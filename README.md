@@ -63,7 +63,7 @@ out_dict = self.net(template=template_list,
 
 Modify the <DATASET_PATH> and <SAVE_PATH> in```./RGBT_workspace/test_rgbt_mgpus.py```, then run:
 ```
-bash eval_rgbt.sh
+bash eval_drgbt.sh
 ```
 In this way, you can obtain the experimental results and then run the following command to evaluate them:
 ```
