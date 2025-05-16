@@ -13,21 +13,24 @@ The official implementation for the paper [**A Benchmark for Dynamic RGBT Tracki
 ### Installation
 Create and activate a conda environment:
 ```
-conda create -n bat python=3.7
-conda activate bat
+conda create -n drgbt python=3.7
+conda activate drgbt
 ```
 Install the required packages:
 ```
-bash install_bat.sh
+bash install_drgbt.sh
 ```
 
 ### Data Preparation
 Download the training datasets, It should look like:
 ```
 $<PATH_of_Datasets>
-    --|-- 1boygo
-      |-- 1boygo
-      |-- 1handsth
+    --|-- 001_RT_RT
+      |-- 001_person
+      |-- 002_RT_RT
+      |-- bike202407151415_RT_TT
+      |-- ...
+```
         ...
 
 ```

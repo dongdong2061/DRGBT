@@ -160,30 +160,6 @@ class DRGBT603(BaseRGBTDataet):
         self.SR_fun = SR()
         self.NPR_fun = NPR()
 
-        # Challenge attributes
-        # self._attr_list = ('NO', 'PO', 'TO', 'HO', 'MB', 
-        #                    'LI', 'HI', 'AIV', 'LR', 'DEF', 
-        #                    'BC', 'SA', 'CM', 'TC', 'FL', 
-        #                    'OV', 'FM', 'SV', 'ARC')
-        # self.NO = self.choose_serial_by_att('NO')
-        # self.PO = self.choose_serial_by_att('PO')
-        # self.TO = self.choose_serial_by_att('TO')
-        # self.HO = self.choose_serial_by_att('HO')
-        # self.MB = self.choose_serial_by_att('MB')
-        # self.LI = self.choose_serial_by_att('LI')
-        # self.HI = self.choose_serial_by_att('HI')
-        # self.AIV = self.choose_serial_by_att('AIV')
-        # self.LR = self.choose_serial_by_att('LR')
-        # self.DEF = self.choose_serial_by_att('DEF')
-        # self.BC = self.choose_serial_by_att('BC')
-        # self.SA = self.choose_serial_by_att('SA')
-        # self.CM = self.choose_serial_by_att('CM')
-        # self.TC = self.choose_serial_by_att('TC')
-        # self.FL = self.choose_serial_by_att('FL')
-        # self.OV = self.choose_serial_by_att('OV')
-        # self.FM = self.choose_serial_by_att('FM')
-        # self.SV = self.choose_serial_by_att('SV')
-        # self.ARC = self.choose_serial_by_att('ARC')
 
     def get_attr_list(self):
         return self._attr_list
