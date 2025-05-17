@@ -79,7 +79,7 @@ class EnvSettings_ITP:
         self.davis_dir = ''
         self.youtubevos_dir = ''
 
-        self.dmet_dir = os.path.join(data_dir, 'DEMT')
+        self.drgbt603_dir = os.path.join(data_dir, 'DRGBT603')
 
         self.got_packed_results_path = ''
         self.got_reports_path = ''

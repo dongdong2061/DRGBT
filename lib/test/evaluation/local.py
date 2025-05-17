@@ -6,7 +6,7 @@ def local_env_settings():
     # Set your local paths here.
 
     settings.davis_dir = ''
-    settings.dmet_dir = '/data/wuyingjie/dzd/fourth_work/BAT2/BAT/data/DEMT'
+    settings.r603_dir = '/data/wuyingjie/dzd/fourth_work/BAT2/BAT/data/DEMT'
     settings.got10k_lmdb_path = '/data/wuyingjie/dzd/fourth_work/BAT2/BAT/data/got10k_lmdb'
     settings.got10k_path = '/data/wuyingjie/dzd/fourth_work/BAT2/BAT/data/got10k'
     settings.got_packed_results_path = ''
