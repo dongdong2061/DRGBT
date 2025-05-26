@@ -209,10 +209,10 @@ class VisionTransformerCE(VisionTransformer):
         #print("input x",x.size())
         if Test:
             template_same = torch.mean(cosine_similarity(z,zi,dim=1))
-            if template_same>0.9:
+            if template_same==1:
                 self.template_modal_consistent = True
             search_same = torch.mean(cosine_similarity(x,xi,dim=1))
-            if search_same>0.9:
+            if search_same==1:
                 self.search_modal_consistent = True
 
 ###################################################################===========
