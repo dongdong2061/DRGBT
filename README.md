@@ -1,4 +1,4 @@
-# A Benchmark for Dynamic RGBT Tracking and A Causal Inference based Learning Approach
+# Causality-based Modality&Platform-invariant Representation Learning for Dynamic RGBT Tracking and A Benchmark
 The official implementation for the paper [**A Benchmark for Dynamic RGBT Tracking and A Causal Inference based Learning Approach**].
 
 
