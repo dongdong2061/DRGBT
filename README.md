@@ -7,6 +7,8 @@ The official implementation for the paper [**Causality-based Modality&Platform-i
 
 [Models & Raw Results](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data)
 
+## Datasets
+You can download DRGBT603 from [here](https://pan.baidu.com/s/1Oe0_WzsjpA3VW75Le4HmLw 提取码: d2c3).
 
 
 ## Usage
