@@ -1,6 +1,6 @@
 # Causality-based Modality&Platform-invariant Representation Learning for Dynamic RGBT Tracking and A Benchmark
 The official implementation for the paper [**Causality-based Modality&Platform-invariant Representation Learning for Dynamic RGBT Tracking and A Benchmark**].
-
+The paper is currently under review, and the full dataset will be released upon its acceptance.
 
 
 ## Models
