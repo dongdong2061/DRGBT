@@ -8,7 +8,7 @@ The paper is currently under review, and the full dataset will be released upon 
 [Models & Raw Results](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data)
 
 ## Datasets
-You can download DRGBT603 from [here](https://pan.baidu.com/s/1Oe0_WzsjpA3VW75Le4HmLw) (Baidu Driver: wd33) or [kaggle](https://www.kaggle.com/ds/7394103).
+You can download DRGBT603 from [here](https://pan.baidu.com/s/1dszz8xxW0Q0kFauNFDKRDg?pwd=RGBT) (Baidu Driver: xxxx) or [kaggle](https://www.kaggle.com/ds/7394103).
 
 
 ## Usage
