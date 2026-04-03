@@ -1,14 +1,13 @@
 # Causality-based Modality&Platform-invariant Representation Learning for Dynamic RGBT Tracking and A Benchmark
 The official implementation for the paper [**Causality-based Modality&Platform-invariant Representation Learning for Dynamic RGBT Tracking and A Benchmark**].
-The paper is currently under review, and the full dataset will be released upon its acceptance.
-
+⭐⭐Our paper has been accepted by TIP, and the data is now publicly available.
 
 ## Models
 
 [Models & Raw Results](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data)
 
 ## Datasets
-You can download DRGBT603 from [here](https://pan.baidu.com/s/11Dy4CGyf4K1nPqU6Fdv-iA?pwd=RGBT) (Baidu Driver: xxxx) or [kaggle](https://www.kaggle.com/ds/7394103).
+You can download DRGBT603 from [here](https://pan.baidu.com/s/11Dy4CGyf4K1nPqU6Fdv-iA?pwd=RGBT) (Baidu Driver: RGBT) or [kaggle](https://www.kaggle.com/ds/7394103).
 
 ## Usage
 ### Installation
