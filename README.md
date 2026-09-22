@@ -4,7 +4,7 @@ The official implementation for the paper [**Causality-based Modality&Platform-i
 
 ## Models
 
-[Models & Raw Results](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data)
+[Models & Raw Results](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results)
 
 ## Datasets
 You can download DRGBT603 from [here](https://pan.baidu.com/s/11Dy4CGyf4K1nPqU6Fdv-iA?pwd=RGBT) (Baidu Driver: RGBT) or [kaggle](https://www.kaggle.com/ds/7394103).
